@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "1",
+    "title": "Computer Vision",
+    "description": "Unlock the power of visual data with our cutting-edge computer vision solutions. From image recognition to object tracking, we bring your vision to life.",
+    "features": [
+      "Image Recognition",
+      "Object Tracking",
+      "Facial Recognition",
+      "OCR (Optical Character Recognition)"
+    ],
+    "image": "https://i.ibb.co/8jnMCT7/computer.jpg"
+  },
+  {
+    "_id": "2",
+    "title": "End to End Analytics",
+    "description": "Gain valuable insights into your business with our end-to-end analytics services. We analyze data comprehensively to help you make informed decisions.",
+    "features": [
+      "Data Visualization",
+      "Predictive Analytics",
+      "Custom Dashboards",
+      "Data Mining"
+    ],
+    "image": "https://i.ibb.co/Kzs93TN/analytics.jpg"
+  },
+  {
+    "_id": "3",
+    "title": "Time Series Analysis",
+    "description": "Understand patterns and trends over time with our time series analysis expertise. Make data-driven predictions and optimize your strategies.",
+    "features": [
+      "Temporal Pattern Recognition",
+      "Forecasting Models",
+      "Seasonal Analysis",
+      "Trend Analysis"
+    ],
+    "image": "https://i.ibb.co/x252BNR/time-series.jpg"
+  },
+  {
+    "_id": "4",
+    "title": "Scalable AI",
+    "description": "Empower your business with scalable artificial intelligence solutions. Our AI models adapt and grow with your business needs, ensuring long-term success.",
+    "features": [
+      "Modular AI Architecture",
+      "Continuous Learning",
+      "Cloud Integration",
+      "Auto-scaling"
+    ],
+    "image": "https://i.ibb.co/bs7fy9f/ai.jpg"
+  },
+  {
+    "_id": "5",
+    "title": "IoT Integration",
+    "description": "Connect and optimize your devices with our IoT integration services. Harness the potential of the Internet of Things to enhance efficiency and productivity.",
+    "features": [
+      "Device Connectivity",
+      "Real-time Monitoring",
+      "Data Security",
+      "Analytics at the Edge"
+    ],
+    "image": "https://i.ibb.co/3vp5Bnm/iot.jpg"
+  },
+  {
+    "_id": "6",
+    "title": "Mobile and Web Application Development",
+    "description": "Transform your ideas into reality with our expert mobile and web application development services. We create seamless and user-friendly digital experiences.",
+    "features": [
+      "Cross-Platform Development",
+      "User-Centric Design",
+      "Backend Integration",
+      "Agile Development"
+    ],
+    "image": "https://i.ibb.co/5F6XfbT/web-app.jpg"
+  }
+]

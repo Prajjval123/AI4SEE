@@ -5,8 +5,10 @@ import Navbar from "../pages/Shared/Navbar/Navbar";
 
 const Main = () => {
     return (
-        <div>
-            <Navbar/>
+        <div className="relative">
+          <div className="z-50 absolute w-full">
+          <Navbar/>
+          </div>
            <Outlet/>
            <Footer/>
            <Modal/>

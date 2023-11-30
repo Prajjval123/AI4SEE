@@ -25,7 +25,7 @@ const Banner = ({ listItems, listImages }) => {
                         </ul>
                     </div>
 
-                    <div className="lg:w-[45%] border-4 md:border-[20px] border-black rounded-md">
+                    <div className="lg:w-[45%] border-4 md:border-[20px] border-black rounded-md mt-10">
                         <Carousel
                             showIndicators={false}
                             showStatus={false}
@@ -37,7 +37,7 @@ const Banner = ({ listItems, listImages }) => {
                         >
                             {listImages && listImages.map((img, idx) => (
                                 <div key={idx}>
-                                    <img className="h-[200px] md:h-[350px]" src={img.img} alt={img.alt} />
+                                    <img className="h-[200px] md:h-[350px] object-cover" src={img.img} alt={img.alt} />
                                 </div>
                             ))}
                         </Carousel>

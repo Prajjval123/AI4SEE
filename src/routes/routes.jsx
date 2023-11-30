@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layouts/Main";
 import LandingPage from "../pages/Home/LandingPage/LandingPage";
+import ServiceDetails from "../pages/Home/Service/ServiceDetails";
 
 const router = createBrowserRouter([
     {
@@ -10,7 +11,11 @@ const router = createBrowserRouter([
         {
           path: '/',
           element: <LandingPage/>
-        }
+        },
+        {
+          path: '/service/:id',
+          element: <ServiceDetails/>
+        },
       ]
     },
   ]);
