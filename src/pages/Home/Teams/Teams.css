@@ -5,16 +5,12 @@
 .swiper-slide {
   width: 100%;
 }
-.swiper-button-next {
-  position: absolute;
-  right: 47%;
-  top: 330px;
-}
+.swiper-button-next,
 .swiper-button-prev {
   position: absolute;
-  left: 47%;
   top: 330px;
 }
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 18px;
@@ -22,4 +18,34 @@
   padding: 10px 15px;
   background: #f6f7f8;
   border-radius: 10%;
+}
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+  .swiper-button-next {
+    right: 40%;
+  }
+  .swiper-button-prev {
+    left: 40%;
+  }
+}
+
+/* Tablet devices (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .swiper-button-next {
+    right: 45%;
+  }
+  .swiper-button-prev {
+    left: 45%;
+  }
+}
+
+/* Laptop devices and larger screens */
+@media only screen and (min-width: 1024px) {
+  .swiper-button-next {
+    right: 47%;
+  }
+  .swiper-button-prev {
+    left: 47%;
+  }
 }

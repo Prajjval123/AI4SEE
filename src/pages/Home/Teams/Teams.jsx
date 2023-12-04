@@ -4,12 +4,11 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import 'swiper/css/free-mode';
 import './Teams.css';
 
 // import required modules
-import { Navigation } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 
 const Teams = () => {
@@ -40,7 +39,7 @@ const Teams = () => {
         },
     ]
     return (
-        <section className='mb-20 teams  relative'>
+        <section className='mb-10 teams  relative'>
             <SectionTitle heading={'Our Teams'} subHeading={'Meet with our team members'} />
             <div className="">
                 <Swiper
@@ -60,13 +59,17 @@ const Teams = () => {
                           slidesPerView: 4,
                         }
                       }}
-                    navigation={true}
-                    modules={[Navigation]}
+                      freeMode={true}
+                      autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                      }}
+                    modules={[Autoplay]}
                     className="mySwiper"
                 >
                     {teams.map((member) => (
                         <SwiperSlide key={member.name} >
-                            <div className="text-gray-600 shadow-md rounded-lg bg-gray-100 flex flex-col mb-40">
+                            <div className="text-gray-600 shadow-md rounded-lg bg-gray-100 flex flex-col mb-20">
                                 <div className="p-4 flex-grow">
                                     <img className="h-52 rounded w-full object-cover object-center mb-6" src={member.img} alt="class" />
                                     <h2 className="text-lg text-[#538EC8] font-medium title-font">{member.name}</h2>
